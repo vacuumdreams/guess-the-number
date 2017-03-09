@@ -1,0 +1,12 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+  <link rel="icon" href="{{ htmlWebpackPlugin.options.faviconPath }}">
+  <link rel="stylesheet" href="{{ htmlWebpackPlugin.files.css }}">
+  <script async src="{{ htmlWebpackPlugin.files.js }}"></script>
+</head>
+<body>
+  <div class="app" id="app"></div>
+</body>
+</html>

@@ -1,0 +1,13 @@
+{
+  "env": "production",
+  "title": "Guess the number",
+  "url": "http://localhost:8000",
+  "maxNumberOfGuesses": 3,
+  "api": {
+    "url": "http://localhost:8800",
+    "redis": {
+      "host": "127.0.0.1",
+      "port": "6379"
+    }
+  }
+}
